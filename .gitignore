@@ -169,3 +169,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Node.js
+node_modules/
+.env
+build/
+
+# Python/Django
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+
