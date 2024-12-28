@@ -2,10 +2,11 @@ import React from 'react';
 //import './ProductList.css'; // Optional: Import styling if needed
 
 const ProductList = () => {
-    const products = ["Product 1", "Product 2", "Product 3"]; // Example data
+    const products = ["Software Technology", "Mobile Development", "Systems Creations"]; // Example data
     return (
         <div>
-            <h2>Product List</h2>
+            <h2>Welcome To Mavmo site where your software dreams come true</h2>
+            <h3>The follwing is what we offer:</h3>
             <ul>
                 {products.map((product, index) => (
                     <li key={index}>{product}</li>
